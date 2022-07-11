@@ -15,8 +15,26 @@
   top: 150px;
 }
 
+.pause {
+  animation-play-state: paused !important;
+}
+
+#gameover {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 13px;
+  letter-spacing: 10px;
+  color: dimgray;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 215%);
+}
+
 .jump {
   animation: jump 0.3s linear;
+}
+
+.visibility {
+  visibility: hidden;
 }
 
 @keyframes jump {
