@@ -10,7 +10,8 @@
 
 ## Roadmap
 
-> This is the tutorial guide which I used to build the project
+> :memo: This is the tutorial guide which I used to build the project
+
 
 - [x] Download sprites for T-rex and Cactus
 - [x] Create the square border
@@ -18,7 +19,8 @@
 - [x] Animate the cactus’s movement
 - [x] Code the collision using Javascript
 
-> These are my own contributions for the project 
+> :bulb: These are my own contributions for the project 
+
 
 - [x] Create the "game over" message
 - [x] Include “Press Start 2P” font in the "game over" message
