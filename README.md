@@ -1,4 +1,4 @@
-# Recreating Google Chrome's dino game using Javascript
+# Recreating a small game using Javascript
 
 ### Projeto originado a partir <a href="https://www.youtube.com/watch?v=i7nIutSLvdU">desse</a> tutorial.
 
@@ -25,3 +25,4 @@
 - [x] Create the "game over" message
 - [x] Include “Press Start 2P” font in the "game over" message
 - [x] Centralize the square border
+- [x] Download new sprites
