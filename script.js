@@ -2,6 +2,20 @@ const capy = document.getElementById("capybara");
 const cactus = document.getElementById("cactus");
 const errorDiv = document.getElementById("gameover");
 
+
+cactus.addEventListener("click", function(e) {
+  e.preventDefault;
+  
+  cactus.classList.remove("animation");
+  cactus.classList.remove("pause");
+  capy.classList.remove("pause");
+  
+  void cactus.offsetWidth;
+  
+  cactus.classList.add("animation");
+}, false);
+
+
 function jump() {
   if (capy.classList != "jump") {
     capy.classList.add("jump");
