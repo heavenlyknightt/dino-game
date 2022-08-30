@@ -1,8 +1,13 @@
 .game {
-  width: 600px;
-  height: 200px;
+  position: absolute;
+  width: 37.5rem;
+  height: 12.5rem;
   border: 1px solid black;
   margin: auto; /* usado para centralizar */ 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #capybara {
