@@ -20,11 +20,19 @@
   top: 157px;
 }
 
+.animation {
+  animation: block 1s infinite linear;
+}
+
 .pause {
   animation-play-state: paused !important;
 }
 
 #gameover {
+  top: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 13px;
   letter-spacing: 10px;
@@ -32,6 +40,14 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%, 215%);
+}
+
+#restart {
+  background-image: url(img/restart.jpg);
+  background-size; 35px 35px;
+  height: 35px;
+  width: 35px;
+
 }
 
 .jump {
@@ -74,7 +90,7 @@
   background-image: url(img/cactus.png);
   background-size: 20px 40px;
 
-  animation: block 1s infinite linear;
+
 }
 
 @keyframes block {
