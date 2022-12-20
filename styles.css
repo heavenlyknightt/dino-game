@@ -1,7 +1,7 @@
 .game {
   position: absolute;
-  width: 37.5rem;
-  height: 12.5rem;
+  width: 37.5em;
+  height: 12.5em;
   border: 1px solid black;
   margin: auto; /* usado para centralizar */ 
   top: 0;
