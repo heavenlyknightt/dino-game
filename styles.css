@@ -47,7 +47,6 @@
   background-size; 35px 35px;
   height: 35px;
   width: 35px;
-
 }
 
 .jump {
@@ -89,8 +88,6 @@
 
   background-image: url(img/cactus.png);
   background-size: 20px 40px;
-
-
 }
 
 @keyframes block {
