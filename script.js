@@ -1,9 +1,10 @@
 const capy = document.getElementById("capybara");
 const cactus = document.getElementById("cactus");
+const restart = document.getElementById("restart");
 const errorDiv = document.getElementById("gameover");
 
 
-cactus.addEventListener("click", function(e) {
+restart.addEventListener("click", function(e) {
   e.preventDefault;
   
   cactus.classList.remove("animation");
