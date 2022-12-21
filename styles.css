@@ -100,3 +100,13 @@
     left: -20px;
   }
 }
+
+
+@media (max-width: 375px) {
+  .game {
+    width: 100%;
+  }
+  #gameover {
+    width: 100%;
+  }
+}
