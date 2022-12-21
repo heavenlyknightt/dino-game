@@ -106,4 +106,8 @@
   .game {
     width: 100vw;
   }
+
+  #gameover {
+    font-size: 10px;
+  }
 }
