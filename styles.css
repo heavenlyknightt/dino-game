@@ -100,3 +100,10 @@
     left: -20px;
   }
 }
+
+
+@media (max-width: 400px) {
+  .game {
+    width: 100vw;
+  }
+}
