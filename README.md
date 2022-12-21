@@ -23,7 +23,7 @@
 
 
 - [x] Create the "game over" message
-- [x] Include “Press Start 2P” font in the "game over" message
+  - [x] Include “Press Start 2P” font in the "game over" message
 - [x] Centralize the square border
-- [x] Download new sprites
-- [ ] Create the "restart" button
+- [x] Create the "restart" button
+- [ ] Download new sprites and background
