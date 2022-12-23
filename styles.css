@@ -1,3 +1,7 @@
+body {
+  background-color: #160F16;
+}
+
 .game {
   position: absolute;
   width: 37.5em;
@@ -9,6 +13,7 @@
   left: 0;
   right: 0;
   background-image: url(img/back.png);
+  background-repeat: round;
 }
 
 #capybara {
@@ -38,7 +43,7 @@
   font-family: 'Press Start 2P', cursive;
   font-size: 13px;
   letter-spacing: 10px;
-  color: dimgray;
+  color: tan;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 215%);
