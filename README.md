@@ -26,4 +26,5 @@
   - [x] Include “Press Start 2P” font in the "game over" message
 - [x] Centralize the square border
 - [x] Create the "restart" button
-- [ ] Download new sprites and background
+- [x] Download new sprites and background
+- [ ] Improve game mechanics
