@@ -23,7 +23,7 @@ function jump() {
   
     setTimeout(function () {
       capy.classList.remove("jump");
-    }, 300)
+    }, 600)
   }
 }
 
