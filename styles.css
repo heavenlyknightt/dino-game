@@ -35,8 +35,12 @@ body {
 }
 
 #gameover {
-  margin: 10.5% 31.8% 10.5% 31.8%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   user-select: none;
@@ -45,7 +49,6 @@ body {
   letter-spacing: 10px;
   color: tan;
   position: absolute;
-  transform: translate(0%, 0%);
 }
 
 #restart {
