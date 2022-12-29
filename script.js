@@ -30,12 +30,14 @@ function jump() {
 
 let isAlive = setInterval(function () {
 
-  let capyTop = parseInt(window.getComputedStyle(capy).getPropertyValue("top"));
-  let cactusleft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"))
+  let transform = window.getComputedStyle(dino).getPropertyValue("transform");
+  let matrix = transform.split(",");
+  let y = parseInt(matrix[matrix.length - 1]);
+  let cactusleft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
   /* Código para detectar colisão */
 
-  if (cactusleft < 50 && cactusleft > 0 && capyTop >= 140) {
+  if (cactusleft < 50 && cactusleft > -10 && (y > -30 || isNaN(y))) {
     errorDiv.classList.remove("visibility");
     cactus.classList.add("pause");
     capy.classList.add("pause");
