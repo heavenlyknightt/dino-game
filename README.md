@@ -21,10 +21,11 @@
 
 > :bulb: These are my own contributions for the project 
 
-
 - [x] Create the "game over" message
-  - [x] Include “Press Start 2P” font in the "game over" message
+- [x] Include “Press Start 2P” font in the "game over" message
 - [x] Centralize the square border
 - [x] Create the "restart" button
 - [x] Download new sprites and background
-- [ ] Improve game mechanics
+- [x] Improve game mechanics
+- [ ] Create a background for the "game over" message and for the score area.
+- [ ] Show the player's score and their high scores
