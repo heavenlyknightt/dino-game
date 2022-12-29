@@ -30,7 +30,7 @@ function jump() {
 
 let isAlive = setInterval(function () {
 
-  let transform = window.getComputedStyle(dino).getPropertyValue("transform");
+  let transform = window.getComputedStyle(capy).getPropertyValue("transform");
   let matrix = transform.split(",");
   let y = parseInt(matrix[matrix.length - 1]);
   let cactusleft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
