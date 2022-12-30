@@ -51,6 +51,14 @@ body {
   position: absolute;
 }
 
+#gameover p {
+  margin-left: 1vw;
+}
+
+#gameover-background {
+  background-color: #603B2A;
+}
+
 #restart {
   margin: auto;
   background-image: url(img/restartbutton.png);
