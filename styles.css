@@ -95,7 +95,7 @@ body {
 
 @keyframes block {
   0% {
-    left: 1000px;
+    left: 70vw;
   }
 
   100% {
