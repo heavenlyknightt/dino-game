@@ -27,7 +27,7 @@ body {
 }
 
 .animation {
-  animation: block 2s infinite linear;
+  animation: block 3s infinite linear;
 }
 
 .pause {
@@ -95,7 +95,7 @@ body {
 
 @keyframes block {
   0% {
-    left: 780px;
+    left: 1000px;
   }
 
   100% {
