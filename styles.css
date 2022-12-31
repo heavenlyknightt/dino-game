@@ -116,6 +116,6 @@ body {
   }
 
   .animation {
-    animation-play-state: block 1s infinite linear;
+    animation: block 1s infinite linear;
   }
 }
