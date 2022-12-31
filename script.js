@@ -1,5 +1,5 @@
 const capy = document.getElementById("capybara");
-const cactus = document.getElementById("cactus");
+const tree = document.getElementById("tree");
 const restart = document.getElementById("restart");
 const errorDiv = document.getElementById("gameover");
 
@@ -7,13 +7,13 @@ const errorDiv = document.getElementById("gameover");
 restart.addEventListener("click", function(e) {
   e.preventDefault;
   
-  cactus.classList.remove("animation");
-  cactus.classList.remove("pause");
+  tree.classList.remove("animation");
+  tree.classList.remove("pause");
   capy.classList.remove("pause");
   
-  void cactus.offsetWidth;
+  void tree.offsetWidth;
   
-  cactus.classList.add("animation");
+  tree.classList.add("animation");
 }, false);
 
 
@@ -33,13 +33,13 @@ let isAlive = setInterval(function () {
   let transform = window.getComputedStyle(capy).getPropertyValue("transform");
   let matrix = transform.split(",");
   let y = parseInt(matrix[matrix.length - 1]);
-  let cactusleft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
+  let treeleft = parseInt(window.getComputedStyle(tree).getPropertyValue("left"));
 
   /* Código para detectar colisão */
 
-  if (cactusleft < 50 && cactusleft > -10 && (y > -30 || isNaN(y))) {
+  if (treeleft < 50 && treeleft > -10 && (y > -30 || isNaN(y))) {
     errorDiv.classList.remove("visibility");
-    cactus.classList.add("pause");
+    tree.classList.add("pause");
     capy.classList.add("pause");
   }
   else {
