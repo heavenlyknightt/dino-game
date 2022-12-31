@@ -114,4 +114,8 @@ body {
     letter-spacing: 6px;
     margin: 18% 31.8% 18% 31.8%;
   }
+
+  .animation {
+    animation-play-state: block 1s infinite linear;
+  }
 }
