@@ -83,14 +83,14 @@ body {
 }
 
 #cactus {
-  width: 20px;
+  width: 40px;
   height: 40px;
   position: relative;
   top: 100px;
   left: 580px;
 
   background-image: url(img/tree.png);
-  background-size: 20px 40px;
+  background-size: 40px 80px;
 }
 
 @keyframes block {
