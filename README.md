@@ -27,5 +27,5 @@
 - [x] Create the "restart" button
 - [x] Download new sprites and background
 - [x] Improve game mechanics
-- [ ] Create a background for the "game over" message and for the score area.
+- [x] Create a background for the "game over" message
 - [ ] Show the player's score and their high scores
